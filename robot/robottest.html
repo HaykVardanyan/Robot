@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+<link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+<body>
+<form >
+    <div id="questionDiv">
+	<img style="height: 200px; width: 200px;" src="robotgifs/rb.jpg">  
+        <h1>The smartest Robot</h1>
+        <label for="question">Your question: </label>
+        <br>
+        <input type="text" placeholder="Ask Your Question" id="question">
+    </div>
+    <div id="showAnswer">
+	<img style="height: 200px;" "width: 200px;" src="robotgifs/giff.gif" >
+        <h2>The answer is: </h2>
+        <h3 id="answer"></h3>
+    </div>
+    <h2>Login as Administrator</h2>
+    <label for="name">Username: </label>
+	
+    <br>
+    <input type="text" id="name">
+    <br>
+    <label for="password">Password:</label>
+    <br>
+    <input type="password" id="password">
+    <br>
+    <br>
+    <input type="button" onclick="showAnswer()" value="Login and Answer the question">
+
+</form>
+
+<script src="script.js"> </script>
+</body>
+</html>
+
+
